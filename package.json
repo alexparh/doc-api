@@ -1,0 +1,24 @@
+{
+  "name": "doc-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "start:dev": "nodemon -r ./src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^4.4.0",
+    "express": "^4.18.2",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "prettier": "^2.7.1",
+    "reverse-line-reader": "^0.2.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "prisma": "^4.4.0"
+  }
+}
