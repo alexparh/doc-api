@@ -1,2 +1,2 @@
 # doc-api
-express + prisma + sql
+express, prisma, sql queries
